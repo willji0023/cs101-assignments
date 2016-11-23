@@ -1,0 +1,33 @@
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
+int main()
+{
+	vector<int> notprime;
+	for (int i = 2; i < 100; i++){ // makes vector have numbers 2 to 100
+		notprime.push_back(i);
+	}
+
+	vector<int> prime;
+	for (int i = 0; i < notprime.size(); i++){
+		for (int j = 2; j < notprime[i]; j++){
+			if (notprime[i]%j != 0){
+				continue;
+			}
+			else { // if number i was divisible by j
+				break; // then stop dividing j
+			}
+			prime.push_back(notprime[i]);
+		}
+	}
+
+	cout << "Primes: ";
+	for (int i = 0; i < prime.size(); i++){
+		cout << prime[i] << " ";
+	}
+
+}
+
+

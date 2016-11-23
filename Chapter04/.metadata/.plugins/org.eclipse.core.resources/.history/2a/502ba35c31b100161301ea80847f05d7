@@ -1,0 +1,17 @@
+#include<iostream>
+#include<cmath>
+
+using namespace std;
+
+int main()
+{
+	int grains, userGrains;
+	cout << "How many grains would you like?\n";
+	cin >> userGrains;
+
+	for (int tiles = 0; grains < userGrains; tiles++){
+		grains = 0.5 * pow(2, tiles);
+	}
+	cout << "You would need at least " << tiles << " tiles.";
+}
+

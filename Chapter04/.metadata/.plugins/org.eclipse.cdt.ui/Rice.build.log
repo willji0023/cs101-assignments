@@ -1,6 +1,6 @@
-15:49:42 **** Incremental Build of configuration Debug for project Rice ****
+20:22:23 **** Incremental Build of configuration Debug for project Rice ****
 make all 
 make: *** No rule to make target 'main.o', needed by 'Rice.exe'.  Stop.
 
-15:49:42 Build Finished (took 307ms)
+20:22:23 Build Finished (took 308ms)
 
