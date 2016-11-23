@@ -1,0 +1,29 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+	double value, largest, smallest;
+	char n;
+	cout << "Enter a number.\n";
+	cin >> value;
+	largest = value, smallest = value;
+	cout << value << " the largest and smallest so far";
+
+	while (n != '|'){
+		cout << "Enter another number.\n";
+		cin >> value;
+		if (value > largest){
+			cout << value << " the largest so far\n";
+		}
+		if (value < smallest){
+			cout << value << " the smallest so far\n";
+		}
+		cout << "To quit enter '|'.\n";
+		cin >> n;
+	}
+}
+
+
+
