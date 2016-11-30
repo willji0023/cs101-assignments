@@ -1,0 +1,156 @@
+18:49:29 **** Build of configuration Debug for project Drill ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Drill.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Drill.exe"  ./src/main.o   
+Finished building target: Drill.exe
+ 
+18:49:43 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:52 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:53 **** Build of configuration Debug for project Exercise01 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise01.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise01.exe"  ./src/main.o   
+Finished building target: Exercise01.exe
+ 
+18:54:11 **** Incremental Build of configuration Debug for project Exercise01 ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:56 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:57 **** Incremental Build of configuration Debug for project Exercise01 ****
+make all 
+make: Nothing to be done for 'all'.
+19:03:57 **** Build of configuration Debug for project Exercise02 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise02.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise02.exe"  ./src/main.o   
+Finished building target: Exercise02.exe
+ 
+19:04:35 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+19:04:55 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+19:04:56 **** Incremental Build of configuration Debug for project Exercise01 ****
+make all 
+make: Nothing to be done for 'all'.
+19:04:57 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise02.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise02.exe"  ./src/main.o   
+Finished building target: Exercise02.exe
+ 
+19:11:54 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+19:11:55 **** Incremental Build of configuration Debug for project Exercise01 ****
+make all 
+make: Nothing to be done for 'all'.
+19:11:56 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+19:11:56 **** Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise03.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise03.exe"  ./src/main.o   
+Finished building target: Exercise03.exe
+ 
+19:12:01 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:21 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:23 **** Incremental Build of configuration Debug for project Exercise01 ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:23 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:24 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:24 **** Build of configuration Debug for project Exercise04 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise04.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise04.exe"  ./src/main.o   
+Finished building target: Exercise04.exe
+ 
+19:32:30 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:03 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:04 **** Incremental Build of configuration Debug for project Exercise01 ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:04 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:05 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:05 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise04.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise04.exe"  ./src/main.o   
+Finished building target: Exercise04.exe
+ 
+19:33:11 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:12 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+19:33:50 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
