@@ -1,0 +1,49 @@
+19:11:02 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:9:13: error: expected unqualified-id before '=' token
+  int double = 0;
+             ^
+../src/main.cpp:10:15: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char never = "@";
+               ^
+../src/main.cpp:15:18: error: conversion from 'int' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string never2 = 10;
+                  ^
+../src/main.cpp:16:18: error: conversion from 'char' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string gonna2 = 's';
+                  ^
+../src/main.cpp:24:15: error: expected unqualified-id before 'and' token
+  vector<char> and;
+               ^
+../src/main.cpp:10:7: warning: unused variable 'never' [-Wunused-variable]
+  char never = "@";
+       ^
+../src/main.cpp:11:7: warning: unused variable 'gonna' [-Wunused-variable]
+  char gonna = '4';
+       ^
+../src/main.cpp:12:7: warning: unused variable 'give' [-Wunused-variable]
+  char give = 'a';
+       ^
+../src/main.cpp:13:6: warning: unused variable 'you' [-Wunused-variable]
+  int you = 16.09;
+      ^
+../src/main.cpp:14:9: warning: unused variable 'up' [-Wunused-variable]
+  double up = 16.09;
+         ^
+../src/main.cpp:18:7: warning: unused variable 'you2' [-Wunused-variable]
+  bool you2 = "haha";
+       ^
+../src/main.cpp:19:7: warning: unused variable 'down' [-Wunused-variable]
+  bool down = true;
+       ^
+../src/main.cpp:20:7: warning: unused variable 'never3' [-Wunused-variable]
+  bool never3 = false;
+       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+
+19:11:04 Build Finished (took 1s.824ms)
+

@@ -1,0 +1,2145 @@
+20:14:20 **** Build of configuration Debug for project Drill ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:35:14: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+  while (!age < 0 || !age > 100){
+              ^
+../src/main.cpp:35:26: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+  while (!age < 0 || !age > 100){
+                          ^
+../src/main.cpp:35:26: warning: comparison of constant '100' with boolean expression is always false [-Wbool-compare]
+../src/main.cpp:52:2: error: expected ';' before '}' token
+  }
+  ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+20:14:46 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:35:14: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+  while (!age < 0 || !age > 100){
+              ^
+../src/main.cpp:35:26: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+  while (!age < 0 || !age > 100){
+                          ^
+../src/main.cpp:35:26: warning: comparison of constant '100' with boolean expression is always false [-Wbool-compare]
+../src/main.cpp:44:2: warning: 'age' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if (age < 12){
+  ^
+Finished building: ../src/main.cpp
+ 
+Building target: Drill.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Drill.exe"  ./src/main.o   
+Finished building target: Drill.exe
+ 
+20:14:54 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+20:16:20 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:35:14: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+  while (!age < 0 || !age > 100){
+              ^
+../src/main.cpp:35:26: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+  while (!age < 0 || !age > 100){
+                          ^
+../src/main.cpp:35:26: warning: comparison of constant '100' with boolean expression is always false [-Wbool-compare]
+Finished building: ../src/main.cpp
+ 
+Building target: Drill.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Drill.exe"  ./src/main.o   
+Finished building target: Drill.exe
+ 
+20:16:26 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+20:18:48 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:35:14: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+  while (!age < 0 || !age > 100){
+              ^
+../src/main.cpp:35:26: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+  while (!age < 0 || !age > 100){
+                          ^
+../src/main.cpp:35:26: warning: comparison of constant '100' with boolean expression is always false [-Wbool-compare]
+Finished building: ../src/main.cpp
+ 
+Building target: Drill.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Drill.exe"  ./src/main.o   
+Finished building target: Drill.exe
+ 
+20:18:55 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+20:19:37 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+20:22:03 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Drill.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Drill.exe"  ./src/main.o   
+Finished building target: Drill.exe
+ 
+20:22:11 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+20:22:59 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Drill.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Drill.exe"  ./src/main.o   
+Finished building target: Drill.exe
+ 
+20:23:06 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+20:30:26 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Drill.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Drill.exe"  ./src/main.o   
+Finished building target: Drill.exe
+ 
+20:30:31 **** Build of configuration Debug for project Exercise02 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise02.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise02.exe"  ./src/main.o   
+Finished building target: Exercise02.exe
+ 
+20:30:35 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+20:40:50 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+20:40:51 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+20:40:52 **** Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:9:13: error: expected unqualified-id before '=' token
+  int double = 0;
+             ^
+../src/main.cpp:10:15: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char never = "@";
+               ^
+../src/main.cpp:15:18: error: conversion from 'int' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string never2 = 10;
+                  ^
+../src/main.cpp:16:18: error: conversion from 'char' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string gonna2 = 's';
+                  ^
+../src/main.cpp:24:15: error: expected unqualified-id before 'and' token
+  vector<char> and;
+               ^
+../src/main.cpp:10:7: warning: unused variable 'never' [-Wunused-variable]
+  char never = "@";
+       ^
+../src/main.cpp:11:7: warning: unused variable 'gonna' [-Wunused-variable]
+  char gonna = '4';
+       ^
+../src/main.cpp:12:7: warning: unused variable 'give' [-Wunused-variable]
+  char give = 'a';
+       ^
+../src/main.cpp:13:6: warning: unused variable 'you' [-Wunused-variable]
+  int you = 16.09;
+      ^
+../src/main.cpp:14:9: warning: unused variable 'up' [-Wunused-variable]
+  double up = 16.09;
+         ^
+../src/main.cpp:18:7: warning: unused variable 'you2' [-Wunused-variable]
+  bool you2 = "haha";
+       ^
+../src/main.cpp:19:7: warning: unused variable 'down' [-Wunused-variable]
+  bool down = true;
+       ^
+../src/main.cpp:20:7: warning: unused variable 'never3' [-Wunused-variable]
+  bool never3 = false;
+       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:13:09 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:13:10 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:13:11 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:9:13: error: expected unqualified-id before '=' token
+  int double = 0;
+             ^
+../src/main.cpp:10:15: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char never = "@";
+               ^
+../src/main.cpp:15:18: error: conversion from 'int' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string never2 = 10;
+                  ^
+../src/main.cpp:16:18: error: conversion from 'char' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string gonna2 = 's';
+                  ^
+../src/main.cpp:24:15: error: expected unqualified-id before 'and' token
+  vector<char> and;
+               ^
+../src/main.cpp:10:7: warning: unused variable 'never' [-Wunused-variable]
+  char never = "@";
+       ^
+../src/main.cpp:11:7: warning: unused variable 'gonna' [-Wunused-variable]
+  char gonna = '4';
+       ^
+../src/main.cpp:12:7: warning: unused variable 'give' [-Wunused-variable]
+  char give = 'a';
+       ^
+../src/main.cpp:13:6: warning: unused variable 'you' [-Wunused-variable]
+  int you = 16.09;
+      ^
+../src/main.cpp:14:9: warning: unused variable 'up' [-Wunused-variable]
+  double up = 16.09;
+         ^
+../src/main.cpp:18:7: warning: unused variable 'you2' [-Wunused-variable]
+  bool you2 = "haha";
+       ^
+../src/main.cpp:19:7: warning: unused variable 'down' [-Wunused-variable]
+  bool down = true;
+       ^
+../src/main.cpp:20:7: warning: unused variable 'never3' [-Wunused-variable]
+  bool never3 = false;
+       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:13:14 **** Build of configuration Debug for project Exercise04 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:26:1: error: expected ';' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:13:55 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:13:56 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:13:57 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:9:13: error: expected unqualified-id before '=' token
+  int double = 0;
+             ^
+../src/main.cpp:10:15: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char never = "@";
+               ^
+../src/main.cpp:15:18: error: conversion from 'int' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string never2 = 10;
+                  ^
+../src/main.cpp:16:18: error: conversion from 'char' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string gonna2 = 's';
+                  ^
+../src/main.cpp:24:15: error: expected unqualified-id before 'and' token
+  vector<char> and;
+               ^
+../src/main.cpp:10:7: warning: unused variable 'never' [-Wunused-variable]
+  char never = "@";
+       ^
+../src/main.cpp:11:7: warning: unused variable 'gonna' [-Wunused-variable]
+  char gonna = '4';
+       ^
+../src/main.cpp:12:7: warning: unused variable 'give' [-Wunused-variable]
+  char give = 'a';
+       ^
+../src/main.cpp:13:6: warning: unused variable 'you' [-Wunused-variable]
+  int you = 16.09;
+      ^
+../src/main.cpp:14:9: warning: unused variable 'up' [-Wunused-variable]
+  double up = 16.09;
+         ^
+../src/main.cpp:18:7: warning: unused variable 'you2' [-Wunused-variable]
+  bool you2 = "haha";
+       ^
+../src/main.cpp:19:7: warning: unused variable 'down' [-Wunused-variable]
+  bool down = true;
+       ^
+../src/main.cpp:20:7: warning: unused variable 'never3' [-Wunused-variable]
+  bool never3 = false;
+       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:13:58 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise04.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise04.exe"  ./src/main.o   
+Finished building target: Exercise04.exe
+ 
+18:14:06 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+18:15:54 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:15:54 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:15:55 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:9:13: error: expected unqualified-id before '=' token
+  int double = 0;
+             ^
+../src/main.cpp:10:15: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char never = "@";
+               ^
+../src/main.cpp:15:18: error: conversion from 'int' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string never2 = 10;
+                  ^
+../src/main.cpp:16:18: error: conversion from 'char' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string gonna2 = 's';
+                  ^
+../src/main.cpp:24:15: error: expected unqualified-id before 'and' token
+  vector<char> and;
+               ^
+../src/main.cpp:10:7: warning: unused variable 'never' [-Wunused-variable]
+  char never = "@";
+       ^
+../src/main.cpp:11:7: warning: unused variable 'gonna' [-Wunused-variable]
+  char gonna = '4';
+       ^
+../src/main.cpp:12:7: warning: unused variable 'give' [-Wunused-variable]
+  char give = 'a';
+       ^
+../src/main.cpp:13:6: warning: unused variable 'you' [-Wunused-variable]
+  int you = 16.09;
+      ^
+../src/main.cpp:14:9: warning: unused variable 'up' [-Wunused-variable]
+  double up = 16.09;
+         ^
+../src/main.cpp:18:7: warning: unused variable 'you2' [-Wunused-variable]
+  bool you2 = "haha";
+       ^
+../src/main.cpp:19:7: warning: unused variable 'down' [-Wunused-variable]
+  bool down = true;
+       ^
+../src/main.cpp:20:7: warning: unused variable 'never3' [-Wunused-variable]
+  bool never3 = false;
+       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:15:57 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise04.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise04.exe"  ./src/main.o   
+Finished building target: Exercise04.exe
+ 
+18:16:02 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+18:18:24 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:18:24 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:18:25 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:9:13: error: expected unqualified-id before '=' token
+  int double = 0;
+             ^
+../src/main.cpp:10:15: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char never = "@";
+               ^
+../src/main.cpp:15:18: error: conversion from 'int' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string never2 = 10;
+                  ^
+../src/main.cpp:16:18: error: conversion from 'char' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string gonna2 = 's';
+                  ^
+../src/main.cpp:24:15: error: expected unqualified-id before 'and' token
+  vector<char> and;
+               ^
+../src/main.cpp:10:7: warning: unused variable 'never' [-Wunused-variable]
+  char never = "@";
+       ^
+../src/main.cpp:11:7: warning: unused variable 'gonna' [-Wunused-variable]
+  char gonna = '4';
+       ^
+../src/main.cpp:12:7: warning: unused variable 'give' [-Wunused-variable]
+  char give = 'a';
+       ^
+../src/main.cpp:13:6: warning: unused variable 'you' [-Wunused-variable]
+  int you = 16.09;
+      ^
+../src/main.cpp:14:9: warning: unused variable 'up' [-Wunused-variable]
+  double up = 16.09;
+         ^
+../src/main.cpp:18:7: warning: unused variable 'you2' [-Wunused-variable]
+  bool you2 = "haha";
+       ^
+../src/main.cpp:19:7: warning: unused variable 'down' [-Wunused-variable]
+  bool down = true;
+       ^
+../src/main.cpp:20:7: warning: unused variable 'never3' [-Wunused-variable]
+  bool never3 = false;
+       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:18:27 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise04.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise04.exe"  ./src/main.o   
+Finished building target: Exercise04.exe
+ 
+18:18:30 **** Build of configuration Debug for project Exercise05 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise05.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise05.exe"  ./src/main.o   
+Finished building target: Exercise05.exe
+ 
+18:18:36 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:18:58 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+18:34:53 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:34:54 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:34:55 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:9:13: error: expected unqualified-id before '=' token
+  int double = 0;
+             ^
+../src/main.cpp:10:15: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char never = "@";
+               ^
+../src/main.cpp:15:18: error: conversion from 'int' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string never2 = 10;
+                  ^
+../src/main.cpp:16:18: error: conversion from 'char' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string gonna2 = 's';
+                  ^
+../src/main.cpp:24:15: error: expected unqualified-id before 'and' token
+  vector<char> and;
+               ^
+../src/main.cpp:10:7: warning: unused variable 'never' [-Wunused-variable]
+  char never = "@";
+       ^
+../src/main.cpp:11:7: warning: unused variable 'gonna' [-Wunused-variable]
+  char gonna = '4';
+       ^
+../src/main.cpp:12:7: warning: unused variable 'give' [-Wunused-variable]
+  char give = 'a';
+       ^
+../src/main.cpp:13:6: warning: unused variable 'you' [-Wunused-variable]
+  int you = 16.09;
+      ^
+../src/main.cpp:14:9: warning: unused variable 'up' [-Wunused-variable]
+  double up = 16.09;
+         ^
+../src/main.cpp:18:7: warning: unused variable 'you2' [-Wunused-variable]
+  bool you2 = "haha";
+       ^
+../src/main.cpp:19:7: warning: unused variable 'down' [-Wunused-variable]
+  bool down = true;
+       ^
+../src/main.cpp:20:7: warning: unused variable 'never3' [-Wunused-variable]
+  bool never3 = false;
+       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:34:57 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise04.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise04.exe"  ./src/main.o   
+Finished building target: Exercise04.exe
+ 
+18:35:00 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:35:00 **** Build of configuration Debug for project Exercise09 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:24:21: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   else if (value = 4){
+                     ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise09.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise09.exe"  ./src/main.o   
+Finished building target: Exercise09.exe
+ 
+18:35:08 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+make: Nothing to be done for 'all'.
+18:35:41 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:35:41 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:35:42 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:9:13: error: expected unqualified-id before '=' token
+  int double = 0;
+             ^
+../src/main.cpp:10:15: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char never = "@";
+               ^
+../src/main.cpp:15:18: error: conversion from 'int' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string never2 = 10;
+                  ^
+../src/main.cpp:16:18: error: conversion from 'char' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string gonna2 = 's';
+                  ^
+../src/main.cpp:24:15: error: expected unqualified-id before 'and' token
+  vector<char> and;
+               ^
+../src/main.cpp:10:7: warning: unused variable 'never' [-Wunused-variable]
+  char never = "@";
+       ^
+../src/main.cpp:11:7: warning: unused variable 'gonna' [-Wunused-variable]
+  char gonna = '4';
+       ^
+../src/main.cpp:12:7: warning: unused variable 'give' [-Wunused-variable]
+  char give = 'a';
+       ^
+../src/main.cpp:13:6: warning: unused variable 'you' [-Wunused-variable]
+  int you = 16.09;
+      ^
+../src/main.cpp:14:9: warning: unused variable 'up' [-Wunused-variable]
+  double up = 16.09;
+         ^
+../src/main.cpp:18:7: warning: unused variable 'you2' [-Wunused-variable]
+  bool you2 = "haha";
+       ^
+../src/main.cpp:19:7: warning: unused variable 'down' [-Wunused-variable]
+  bool down = true;
+       ^
+../src/main.cpp:20:7: warning: unused variable 'never3' [-Wunused-variable]
+  bool never3 = false;
+       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:35:44 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+18:35:44 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:35:45 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise09.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise09.exe"  ./src/main.o   
+Finished building target: Exercise09.exe
+ 
+18:35:50 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+make: Nothing to be done for 'all'.
+18:37:17 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:37:18 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:37:18 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:9:13: error: expected unqualified-id before '=' token
+  int double = 0;
+             ^
+../src/main.cpp:10:15: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char never = "@";
+               ^
+../src/main.cpp:15:18: error: conversion from 'int' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string never2 = 10;
+                  ^
+../src/main.cpp:16:18: error: conversion from 'char' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string gonna2 = 's';
+                  ^
+../src/main.cpp:24:15: error: expected unqualified-id before 'and' token
+  vector<char> and;
+               ^
+../src/main.cpp:10:7: warning: unused variable 'never' [-Wunused-variable]
+  char never = "@";
+       ^
+../src/main.cpp:11:7: warning: unused variable 'gonna' [-Wunused-variable]
+  char gonna = '4';
+       ^
+../src/main.cpp:12:7: warning: unused variable 'give' [-Wunused-variable]
+  char give = 'a';
+       ^
+../src/main.cpp:13:6: warning: unused variable 'you' [-Wunused-variable]
+  int you = 16.09;
+      ^
+../src/main.cpp:14:9: warning: unused variable 'up' [-Wunused-variable]
+  double up = 16.09;
+         ^
+../src/main.cpp:18:7: warning: unused variable 'you2' [-Wunused-variable]
+  bool you2 = "haha";
+       ^
+../src/main.cpp:19:7: warning: unused variable 'down' [-Wunused-variable]
+  bool down = true;
+       ^
+../src/main.cpp:20:7: warning: unused variable 'never3' [-Wunused-variable]
+  bool never3 = false;
+       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:37:20 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+18:37:21 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:37:21 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:13:13: error: no match for 'operator==' (operand types are 'std::string {aka std::basic_string<char>}' and 'int')
+   if (value == 0){
+             ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iosfwd:40:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/postypes.h:216:5: note: candidate: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+     operator==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/postypes.h:216:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:13:16: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::fpos<_StateT>'
+   if (value == 0){
+                ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:64:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_pair.h:214:5: note: candidate: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_pair.h:214:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:13:16: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::pair<_T1, _T2>'
+   if (value == 0){
+                ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:292:5: note: candidate: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator==(const reverse_iterator<_Iterator>& __x,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:292:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:13:16: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::reverse_iterator<_Iterator>'
+   if (value == 0){
+                ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:342:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator==(const reverse_iterator<_IteratorL>& __x,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:342:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:13:16: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::reverse_iterator<_Iterator>'
+   if (value == 0){
+                ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:41:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:128:5: note: candidate: template<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)
+     operator==(const allocator<_T1>&, const allocator<_T2>&)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:128:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:13:16: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::allocator<_CharT>'
+   if (value == 0){
+                ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:41:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:134:5: note: candidate: template<class _Tp> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_CharT>&)
+     operator==(const allocator<_Tp>&, const allocator<_Tp>&)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:134:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:13:16: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::allocator<_CharT>'
+   if (value == 0){
+                ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4906:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4906:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:13:16: note:   mismatched types 'const std::basic_string<_CharT, _Traits, _Alloc>' and 'int'
+   if (value == 0){
+                ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4913:5: note: candidate: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+     operator==(const basic_string<_CharT>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4913:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:13:16: note:   mismatched types 'const std::basic_string<_CharT>' and 'int'
+   if (value == 0){
+                ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4927:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const _CharT* __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4927:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:13:16: note:   mismatched types 'const _CharT*' and 'std::basic_string<char>'
+   if (value == 0){
+                ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4939:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4939:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:13:16: note:   mismatched types 'const _CharT*' and 'int'
+   if (value == 0){
+                ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_facets.h:48:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_ios.h:37,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:44,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/streambuf_iterator.h:204:5: note: candidate: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+     operator==(const istreambuf_iterator<_CharT, _Traits>& __a,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/streambuf_iterator.h:204:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:13:16: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::istreambuf_iterator<_CharT, _Traits>'
+   if (value == 0){
+                ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/x86_64-pc-msys/bits/c++allocator.h:33:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:46,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ext/new_allocator.h:139:5: note: candidate: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+     operator==(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ext/new_allocator.h:139:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:13:16: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const __gnu_cxx::new_allocator<_Tp>'
+   if (value == 0){
+                ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:827:5: note: candidate: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator==(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:827:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:13:16: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const __gnu_cxx::__normal_iterator<_Iterator, _Container>'
+   if (value == 0){
+                ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:820:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:820:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:13:16: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const __gnu_cxx::__normal_iterator<_IteratorL, _Container>'
+   if (value == 0){
+                ^
+../src/main.cpp:16:18: error: no match for 'operator==' (operand types are 'std::string {aka std::basic_string<char>}' and 'int')
+   else if (value == 1){
+                  ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iosfwd:40:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/postypes.h:216:5: note: candidate: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+     operator==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/postypes.h:216:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:16:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::fpos<_StateT>'
+   else if (value == 1){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:64:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_pair.h:214:5: note: candidate: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_pair.h:214:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:16:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::pair<_T1, _T2>'
+   else if (value == 1){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:292:5: note: candidate: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator==(const reverse_iterator<_Iterator>& __x,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:292:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:16:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::reverse_iterator<_Iterator>'
+   else if (value == 1){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:342:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator==(const reverse_iterator<_IteratorL>& __x,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:342:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:16:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::reverse_iterator<_Iterator>'
+   else if (value == 1){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:41:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:128:5: note: candidate: template<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)
+     operator==(const allocator<_T1>&, const allocator<_T2>&)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:128:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:16:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::allocator<_CharT>'
+   else if (value == 1){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:41:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:134:5: note: candidate: template<class _Tp> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_CharT>&)
+     operator==(const allocator<_Tp>&, const allocator<_Tp>&)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:134:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:16:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::allocator<_CharT>'
+   else if (value == 1){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4906:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4906:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:16:21: note:   mismatched types 'const std::basic_string<_CharT, _Traits, _Alloc>' and 'int'
+   else if (value == 1){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4913:5: note: candidate: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+     operator==(const basic_string<_CharT>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4913:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:16:21: note:   mismatched types 'const std::basic_string<_CharT>' and 'int'
+   else if (value == 1){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4927:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const _CharT* __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4927:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:16:21: note:   mismatched types 'const _CharT*' and 'std::basic_string<char>'
+   else if (value == 1){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4939:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4939:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:16:21: note:   mismatched types 'const _CharT*' and 'int'
+   else if (value == 1){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_facets.h:48:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_ios.h:37,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:44,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/streambuf_iterator.h:204:5: note: candidate: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+     operator==(const istreambuf_iterator<_CharT, _Traits>& __a,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/streambuf_iterator.h:204:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:16:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::istreambuf_iterator<_CharT, _Traits>'
+   else if (value == 1){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/x86_64-pc-msys/bits/c++allocator.h:33:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:46,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ext/new_allocator.h:139:5: note: candidate: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+     operator==(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ext/new_allocator.h:139:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:16:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const __gnu_cxx::new_allocator<_Tp>'
+   else if (value == 1){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:827:5: note: candidate: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator==(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:827:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:16:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const __gnu_cxx::__normal_iterator<_Iterator, _Container>'
+   else if (value == 1){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:820:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:820:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:16:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const __gnu_cxx::__normal_iterator<_IteratorL, _Container>'
+   else if (value == 1){
+                     ^
+../src/main.cpp:19:18: error: no match for 'operator==' (operand types are 'std::string {aka std::basic_string<char>}' and 'int')
+   else if (value == 2){
+                  ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iosfwd:40:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/postypes.h:216:5: note: candidate: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+     operator==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/postypes.h:216:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:19:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::fpos<_StateT>'
+   else if (value == 2){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:64:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_pair.h:214:5: note: candidate: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_pair.h:214:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:19:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::pair<_T1, _T2>'
+   else if (value == 2){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:292:5: note: candidate: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator==(const reverse_iterator<_Iterator>& __x,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:292:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:19:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::reverse_iterator<_Iterator>'
+   else if (value == 2){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:342:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator==(const reverse_iterator<_IteratorL>& __x,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:342:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:19:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::reverse_iterator<_Iterator>'
+   else if (value == 2){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:41:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:128:5: note: candidate: template<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)
+     operator==(const allocator<_T1>&, const allocator<_T2>&)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:128:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:19:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::allocator<_CharT>'
+   else if (value == 2){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:41:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:134:5: note: candidate: template<class _Tp> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_CharT>&)
+     operator==(const allocator<_Tp>&, const allocator<_Tp>&)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:134:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:19:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::allocator<_CharT>'
+   else if (value == 2){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4906:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4906:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:19:21: note:   mismatched types 'const std::basic_string<_CharT, _Traits, _Alloc>' and 'int'
+   else if (value == 2){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4913:5: note: candidate: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+     operator==(const basic_string<_CharT>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4913:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:19:21: note:   mismatched types 'const std::basic_string<_CharT>' and 'int'
+   else if (value == 2){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4927:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const _CharT* __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4927:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:19:21: note:   mismatched types 'const _CharT*' and 'std::basic_string<char>'
+   else if (value == 2){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4939:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4939:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:19:21: note:   mismatched types 'const _CharT*' and 'int'
+   else if (value == 2){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_facets.h:48:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_ios.h:37,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:44,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/streambuf_iterator.h:204:5: note: candidate: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+     operator==(const istreambuf_iterator<_CharT, _Traits>& __a,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/streambuf_iterator.h:204:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:19:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::istreambuf_iterator<_CharT, _Traits>'
+   else if (value == 2){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/x86_64-pc-msys/bits/c++allocator.h:33:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:46,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ext/new_allocator.h:139:5: note: candidate: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+     operator==(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ext/new_allocator.h:139:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:19:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const __gnu_cxx::new_allocator<_Tp>'
+   else if (value == 2){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:827:5: note: candidate: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator==(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:827:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:19:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const __gnu_cxx::__normal_iterator<_Iterator, _Container>'
+   else if (value == 2){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:820:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:820:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:19:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const __gnu_cxx::__normal_iterator<_IteratorL, _Container>'
+   else if (value == 2){
+                     ^
+../src/main.cpp:22:18: error: no match for 'operator==' (operand types are 'std::string {aka std::basic_string<char>}' and 'int')
+   else if (value == 3){
+                  ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iosfwd:40:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/postypes.h:216:5: note: candidate: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+     operator==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/postypes.h:216:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:22:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::fpos<_StateT>'
+   else if (value == 3){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:64:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_pair.h:214:5: note: candidate: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_pair.h:214:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:22:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::pair<_T1, _T2>'
+   else if (value == 3){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:292:5: note: candidate: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator==(const reverse_iterator<_Iterator>& __x,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:292:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:22:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::reverse_iterator<_Iterator>'
+   else if (value == 3){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:342:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator==(const reverse_iterator<_IteratorL>& __x,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:342:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:22:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::reverse_iterator<_Iterator>'
+   else if (value == 3){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:41:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:128:5: note: candidate: template<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)
+     operator==(const allocator<_T1>&, const allocator<_T2>&)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:128:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:22:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::allocator<_CharT>'
+   else if (value == 3){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:41:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:134:5: note: candidate: template<class _Tp> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_CharT>&)
+     operator==(const allocator<_Tp>&, const allocator<_Tp>&)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:134:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:22:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::allocator<_CharT>'
+   else if (value == 3){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4906:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4906:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:22:21: note:   mismatched types 'const std::basic_string<_CharT, _Traits, _Alloc>' and 'int'
+   else if (value == 3){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4913:5: note: candidate: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+     operator==(const basic_string<_CharT>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4913:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:22:21: note:   mismatched types 'const std::basic_string<_CharT>' and 'int'
+   else if (value == 3){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4927:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const _CharT* __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4927:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:22:21: note:   mismatched types 'const _CharT*' and 'std::basic_string<char>'
+   else if (value == 3){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4939:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4939:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:22:21: note:   mismatched types 'const _CharT*' and 'int'
+   else if (value == 3){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_facets.h:48:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_ios.h:37,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:44,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/streambuf_iterator.h:204:5: note: candidate: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+     operator==(const istreambuf_iterator<_CharT, _Traits>& __a,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/streambuf_iterator.h:204:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:22:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::istreambuf_iterator<_CharT, _Traits>'
+   else if (value == 3){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/x86_64-pc-msys/bits/c++allocator.h:33:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:46,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ext/new_allocator.h:139:5: note: candidate: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+     operator==(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ext/new_allocator.h:139:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:22:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const __gnu_cxx::new_allocator<_Tp>'
+   else if (value == 3){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:827:5: note: candidate: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator==(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:827:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:22:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const __gnu_cxx::__normal_iterator<_Iterator, _Container>'
+   else if (value == 3){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:820:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:820:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:22:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const __gnu_cxx::__normal_iterator<_IteratorL, _Container>'
+   else if (value == 3){
+                     ^
+../src/main.cpp:25:18: error: no match for 'operator==' (operand types are 'std::string {aka std::basic_string<char>}' and 'int')
+   else if (value == 4){
+                  ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iosfwd:40:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/postypes.h:216:5: note: candidate: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+     operator==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/postypes.h:216:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:25:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::fpos<_StateT>'
+   else if (value == 4){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:64:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_pair.h:214:5: note: candidate: template<class _T1, class _T2> bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_pair.h:214:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:25:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::pair<_T1, _T2>'
+   else if (value == 4){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:292:5: note: candidate: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator==(const reverse_iterator<_Iterator>& __x,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:292:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:25:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::reverse_iterator<_Iterator>'
+   else if (value == 4){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:342:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator==(const reverse_iterator<_IteratorL>& __x,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:342:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:25:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::reverse_iterator<_Iterator>'
+   else if (value == 4){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:41:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:128:5: note: candidate: template<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)
+     operator==(const allocator<_T1>&, const allocator<_T2>&)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:128:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:25:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::allocator<_CharT>'
+   else if (value == 4){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:41:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:134:5: note: candidate: template<class _Tp> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_CharT>&)
+     operator==(const allocator<_Tp>&, const allocator<_Tp>&)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:134:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:25:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::allocator<_CharT>'
+   else if (value == 4){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4906:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4906:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:25:21: note:   mismatched types 'const std::basic_string<_CharT, _Traits, _Alloc>' and 'int'
+   else if (value == 4){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4913:5: note: candidate: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::basic_string<_CharT>&, const std::basic_string<_CharT>&)
+     operator==(const basic_string<_CharT>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4913:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:25:21: note:   mismatched types 'const std::basic_string<_CharT>' and 'int'
+   else if (value == 4){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4927:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator==(const _CharT* __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4927:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:25:21: note:   mismatched types 'const _CharT*' and 'std::basic_string<char>'
+   else if (value == 4){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4939:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:4939:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:25:21: note:   mismatched types 'const _CharT*' and 'int'
+   else if (value == 4){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_facets.h:48:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_ios.h:37,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:44,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/streambuf_iterator.h:204:5: note: candidate: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+     operator==(const istreambuf_iterator<_CharT, _Traits>& __a,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/streambuf_iterator.h:204:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:25:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const std::istreambuf_iterator<_CharT, _Traits>'
+   else if (value == 4){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/x86_64-pc-msys/bits/c++allocator.h:33:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/allocator.h:46,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ext/new_allocator.h:139:5: note: candidate: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+     operator==(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ext/new_allocator.h:139:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:25:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const __gnu_cxx::new_allocator<_Tp>'
+   else if (value == 4){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:827:5: note: candidate: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator==(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:827:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:25:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const __gnu_cxx::__normal_iterator<_Iterator, _Container>'
+   else if (value == 4){
+                     ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_algobase.h:67:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/char_traits.h:39,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:820:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/stl_iterator.h:820:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:25:21: note:   'std::string {aka std::basic_string<char>}' is not derived from 'const __gnu_cxx::__normal_iterator<_IteratorL, _Container>'
+   else if (value == 4){
+                     ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:38:32 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise09.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise09.exe"  ./src/main.o   
+Finished building target: Exercise09.exe
+ 
+18:39:01 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+make: Nothing to be done for 'all'.
+18:39:51 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:39:51 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:39:52 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:9:13: error: expected unqualified-id before '=' token
+  int double = 0;
+             ^
+../src/main.cpp:10:15: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char never = "@";
+               ^
+../src/main.cpp:15:18: error: conversion from 'int' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string never2 = 10;
+                  ^
+../src/main.cpp:16:18: error: conversion from 'char' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string gonna2 = 's';
+                  ^
+../src/main.cpp:24:15: error: expected unqualified-id before 'and' token
+  vector<char> and;
+               ^
+../src/main.cpp:10:7: warning: unused variable 'never' [-Wunused-variable]
+  char never = "@";
+       ^
+../src/main.cpp:11:7: warning: unused variable 'gonna' [-Wunused-variable]
+  char gonna = '4';
+       ^
+../src/main.cpp:12:7: warning: unused variable 'give' [-Wunused-variable]
+  char give = 'a';
+       ^
+../src/main.cpp:13:6: warning: unused variable 'you' [-Wunused-variable]
+  int you = 16.09;
+      ^
+../src/main.cpp:14:9: warning: unused variable 'up' [-Wunused-variable]
+  double up = 16.09;
+         ^
+../src/main.cpp:18:7: warning: unused variable 'you2' [-Wunused-variable]
+  bool you2 = "haha";
+       ^
+../src/main.cpp:19:7: warning: unused variable 'down' [-Wunused-variable]
+  bool down = true;
+       ^
+../src/main.cpp:20:7: warning: unused variable 'never3' [-Wunused-variable]
+  bool never3 = false;
+       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:39:54 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+18:39:54 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:39:55 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise09.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise09.exe"  ./src/main.o   
+Finished building target: Exercise09.exe
+ 
+18:40:00 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+make: Nothing to be done for 'all'.
+18:41:22 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:41:22 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:41:23 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:9:13: error: expected unqualified-id before '=' token
+  int double = 0;
+             ^
+../src/main.cpp:10:15: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char never = "@";
+               ^
+../src/main.cpp:15:18: error: conversion from 'int' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string never2 = 10;
+                  ^
+../src/main.cpp:16:18: error: conversion from 'char' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string gonna2 = 's';
+                  ^
+../src/main.cpp:24:15: error: expected unqualified-id before 'and' token
+  vector<char> and;
+               ^
+../src/main.cpp:10:7: warning: unused variable 'never' [-Wunused-variable]
+  char never = "@";
+       ^
+../src/main.cpp:11:7: warning: unused variable 'gonna' [-Wunused-variable]
+  char gonna = '4';
+       ^
+../src/main.cpp:12:7: warning: unused variable 'give' [-Wunused-variable]
+  char give = 'a';
+       ^
+../src/main.cpp:13:6: warning: unused variable 'you' [-Wunused-variable]
+  int you = 16.09;
+      ^
+../src/main.cpp:14:9: warning: unused variable 'up' [-Wunused-variable]
+  double up = 16.09;
+         ^
+../src/main.cpp:18:7: warning: unused variable 'you2' [-Wunused-variable]
+  bool you2 = "haha";
+       ^
+../src/main.cpp:19:7: warning: unused variable 'down' [-Wunused-variable]
+  bool down = true;
+       ^
+../src/main.cpp:20:7: warning: unused variable 'never3' [-Wunused-variable]
+  bool never3 = false;
+       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:41:25 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+18:41:25 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:41:26 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:12:16: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+   if (value == "0"){
+                ^
+../src/main.cpp:12:16: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../src/main.cpp:15:21: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+   else if (value == "1"){
+                     ^
+../src/main.cpp:15:21: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../src/main.cpp:18:21: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+   else if (value == "2"){
+                     ^
+../src/main.cpp:18:21: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../src/main.cpp:21:21: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+   else if (value == "3"){
+                     ^
+../src/main.cpp:21:21: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../src/main.cpp:24:21: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+   else if (value == "4"){
+                     ^
+../src/main.cpp:24:21: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:41:54 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:41:54 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:41:55 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:9:13: error: expected unqualified-id before '=' token
+  int double = 0;
+             ^
+../src/main.cpp:10:15: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char never = "@";
+               ^
+../src/main.cpp:15:18: error: conversion from 'int' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string never2 = 10;
+                  ^
+../src/main.cpp:16:18: error: conversion from 'char' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string gonna2 = 's';
+                  ^
+../src/main.cpp:24:15: error: expected unqualified-id before 'and' token
+  vector<char> and;
+               ^
+../src/main.cpp:10:7: warning: unused variable 'never' [-Wunused-variable]
+  char never = "@";
+       ^
+../src/main.cpp:11:7: warning: unused variable 'gonna' [-Wunused-variable]
+  char gonna = '4';
+       ^
+../src/main.cpp:12:7: warning: unused variable 'give' [-Wunused-variable]
+  char give = 'a';
+       ^
+../src/main.cpp:13:6: warning: unused variable 'you' [-Wunused-variable]
+  int you = 16.09;
+      ^
+../src/main.cpp:14:9: warning: unused variable 'up' [-Wunused-variable]
+  double up = 16.09;
+         ^
+../src/main.cpp:18:7: warning: unused variable 'you2' [-Wunused-variable]
+  bool you2 = "haha";
+       ^
+../src/main.cpp:19:7: warning: unused variable 'down' [-Wunused-variable]
+  bool down = true;
+       ^
+../src/main.cpp:20:7: warning: unused variable 'never3' [-Wunused-variable]
+  bool never3 = false;
+       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:41:57 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+18:41:57 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:41:58 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise09.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise09.exe"  ./src/main.o   
+Finished building target: Exercise09.exe
+ 
+18:52:11 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:11 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:12 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:9:13: error: expected unqualified-id before '=' token
+  int double = 0;
+             ^
+../src/main.cpp:10:15: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char never = "@";
+               ^
+../src/main.cpp:15:18: error: conversion from 'int' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string never2 = 10;
+                  ^
+../src/main.cpp:16:18: error: conversion from 'char' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string gonna2 = 's';
+                  ^
+../src/main.cpp:24:15: error: expected unqualified-id before 'and' token
+  vector<char> and;
+               ^
+../src/main.cpp:10:7: warning: unused variable 'never' [-Wunused-variable]
+  char never = "@";
+       ^
+../src/main.cpp:11:7: warning: unused variable 'gonna' [-Wunused-variable]
+  char gonna = '4';
+       ^
+../src/main.cpp:12:7: warning: unused variable 'give' [-Wunused-variable]
+  char give = 'a';
+       ^
+../src/main.cpp:13:6: warning: unused variable 'you' [-Wunused-variable]
+  int you = 16.09;
+      ^
+../src/main.cpp:14:9: warning: unused variable 'up' [-Wunused-variable]
+  double up = 16.09;
+         ^
+../src/main.cpp:18:7: warning: unused variable 'you2' [-Wunused-variable]
+  bool you2 = "haha";
+       ^
+../src/main.cpp:19:7: warning: unused variable 'down' [-Wunused-variable]
+  bool down = true;
+       ^
+../src/main.cpp:20:7: warning: unused variable 'never3' [-Wunused-variable]
+  bool never3 = false;
+       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:52:14 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:15 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:15 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:15 **** Build of configuration Debug for project Exercise10 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise10.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise10.exe"  ./src/main.o   
+Finished building target: Exercise10.exe
+ 
+18:52:21 **** Incremental Build of configuration Debug for project Exercise10 ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:31 **** Incremental Build of configuration Debug for project Exercise10 ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:46 **** Incremental Build of configuration Debug for project Exercise10 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:12 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:12 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:13 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:9:13: error: expected unqualified-id before '=' token
+  int double = 0;
+             ^
+../src/main.cpp:10:15: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char never = "@";
+               ^
+../src/main.cpp:15:18: error: conversion from 'int' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string never2 = 10;
+                  ^
+../src/main.cpp:16:18: error: conversion from 'char' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string gonna2 = 's';
+                  ^
+../src/main.cpp:24:15: error: expected unqualified-id before 'and' token
+  vector<char> and;
+               ^
+../src/main.cpp:10:7: warning: unused variable 'never' [-Wunused-variable]
+  char never = "@";
+       ^
+../src/main.cpp:11:7: warning: unused variable 'gonna' [-Wunused-variable]
+  char gonna = '4';
+       ^
+../src/main.cpp:12:7: warning: unused variable 'give' [-Wunused-variable]
+  char give = 'a';
+       ^
+../src/main.cpp:13:6: warning: unused variable 'you' [-Wunused-variable]
+  int you = 16.09;
+      ^
+../src/main.cpp:14:9: warning: unused variable 'up' [-Wunused-variable]
+  double up = 16.09;
+         ^
+../src/main.cpp:18:7: warning: unused variable 'you2' [-Wunused-variable]
+  bool you2 = "haha";
+       ^
+../src/main.cpp:19:7: warning: unused variable 'down' [-Wunused-variable]
+  bool down = true;
+       ^
+../src/main.cpp:20:7: warning: unused variable 'never3' [-Wunused-variable]
+  bool never3 = false;
+       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:53:14 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:15 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:15 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:16 **** Incremental Build of configuration Debug for project Exercise10 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise10.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise10.exe"  ./src/main.o   
+Finished building target: Exercise10.exe
+ 
+19:11:00 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+19:11:01 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+19:11:02 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:9:13: error: expected unqualified-id before '=' token
+  int double = 0;
+             ^
+../src/main.cpp:10:15: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+  char never = "@";
+               ^
+../src/main.cpp:15:18: error: conversion from 'int' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string never2 = 10;
+                  ^
+../src/main.cpp:16:18: error: conversion from 'char' to non-scalar type 'std::string {aka std::basic_string<char>}' requested
+  string gonna2 = 's';
+                  ^
+../src/main.cpp:24:15: error: expected unqualified-id before 'and' token
+  vector<char> and;
+               ^
+../src/main.cpp:10:7: warning: unused variable 'never' [-Wunused-variable]
+  char never = "@";
+       ^
+../src/main.cpp:11:7: warning: unused variable 'gonna' [-Wunused-variable]
+  char gonna = '4';
+       ^
+../src/main.cpp:12:7: warning: unused variable 'give' [-Wunused-variable]
+  char give = 'a';
+       ^
+../src/main.cpp:13:6: warning: unused variable 'you' [-Wunused-variable]
+  int you = 16.09;
+      ^
+../src/main.cpp:14:9: warning: unused variable 'up' [-Wunused-variable]
+  double up = 16.09;
+         ^
+../src/main.cpp:18:7: warning: unused variable 'you2' [-Wunused-variable]
+  bool you2 = "haha";
+       ^
+../src/main.cpp:19:7: warning: unused variable 'down' [-Wunused-variable]
+  bool down = true;
+       ^
+../src/main.cpp:20:7: warning: unused variable 'never3' [-Wunused-variable]
+  bool never3 = false;
+       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+19:11:04 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+19:11:04 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+19:11:04 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+make: Nothing to be done for 'all'.
+19:11:05 **** Incremental Build of configuration Debug for project Exercise10 ****
+make all 
+make: Nothing to be done for 'all'.
+19:11:05 **** Build of configuration Debug for project Exercise11 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise11.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise11.exe"  ./src/main.o   
+Finished building target: Exercise11.exe
+ 
+19:11:14 **** Incremental Build of configuration Debug for project Exercise11 ****
+make all 
+make: Nothing to be done for 'all'.
