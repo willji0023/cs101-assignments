@@ -1,0 +1,1086 @@
+17:13:28 **** Build of configuration Debug for project Drill ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Drill.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Drill.exe"  ./src/main.o   
+Finished building target: Drill.exe
+ 
+17:13:41 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+17:17:51 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp:20:1: error: stray '\205' in program
+ catch (…) {
+ ^
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:11:6: error: no match for 'operator<<' (operand types are 'std::istream {aka std::basic_istream<char>}' and 'const char [10]')
+  cin << "Success!\n";
+      ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/string:52:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/locale_classes.h:40,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ios_base.h:41,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ios:42,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:38,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:5174:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/basic_string.h:5174:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:11:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+  cin << "Success!\n";
+         ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39:0,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:11:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+  cin << "Success!\n";
+         ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39:0,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:11:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+  cin << "Success!\n";
+         ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39:0,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:11:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+  cin << "Success!\n";
+         ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39:0,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:11:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+  cin << "Success!\n";
+         ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39:0,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:11:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+  cin << "Success!\n";
+         ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39:0,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:11:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+  cin << "Success!\n";
+         ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:638:0,
+                 from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:11:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+  cin << "Success!\n";
+         ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39:0,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:11:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+  cin << "Success!\n";
+         ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39:0,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:11:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+  cin << "Success!\n";
+         ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/iostream:39:0,
+                 from ../src/main.cpp:1:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:11:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+  cin << "Success!\n";
+         ^
+../src/main.cpp:20:9: error: expected type-specifier before ')' token
+ catch (…) {
+         ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+17:19:02 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:20:8: error: expected type-specifier before ')' token
+ catch () {
+        ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+17:19:10 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:20:8: error: expected type-specifier before ')' token
+ catch () {
+        ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+17:19:19 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:20:8: error: expected type-specifier before ')' token
+ catch () {
+        ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+17:19:39 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Drill.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Drill.exe"  ./src/main.o   
+Finished building target: Drill.exe
+ 
+17:19:47 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+17:26:13 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+17:26:14 **** Build of configuration Debug for project Exercise02 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'double ctok(double)':
+../src/main.cpp:8:9: error: expected primary-expression before 'int'
+  return int;
+         ^
+../src/main.cpp:8:9: error: expected ';' before 'int'
+../src/main.cpp:8:9: error: declaration does not declare anything [-fpermissive]
+../src/main.cpp:7:6: warning: unused variable 'k' [-Wunused-variable]
+  int k = c + 273.15;
+      ^
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:13:9: error: 'd' was not declared in this scope
+  cin >> d;
+         ^
+../src/main.cpp:14:21: error: cannot convert 'const char*' to 'double' for argument '1' to 'double ctok(double)'
+  double k = ctok("c");
+                     ^
+../src/main.cpp:15:2: error: 'Cout' was not declared in this scope
+  Cout << k << "\n";
+  ^
+../src/main.cpp:12:9: warning: unused variable 'c' [-Wunused-variable]
+  double c = 0;
+         ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+17:28:53 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+17:28:54 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'double ctok(double)':
+../src/main.cpp:8:9: error: expected primary-expression before 'double'
+  return double;
+         ^
+../src/main.cpp:8:9: error: expected ';' before 'double'
+../src/main.cpp:8:9: error: declaration does not declare anything [-fpermissive]
+../src/main.cpp:7:6: warning: unused variable 'k' [-Wunused-variable]
+  int k = c + 273.15;
+      ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+17:30:08 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+17:30:08 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'double ctok(double)':
+../src/main.cpp:8:9: error: expected primary-expression before 'int'
+  return int;
+         ^
+../src/main.cpp:8:9: error: expected ';' before 'int'
+../src/main.cpp:8:9: error: declaration does not declare anything [-fpermissive]
+../src/main.cpp:7:6: warning: unused variable 'k' [-Wunused-variable]
+  int k = c + 273.15;
+      ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+17:30:58 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+17:30:59 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise02.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise02.exe"  ./src/main.o   
+Finished building target: Exercise02.exe
+ 
+17:31:08 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:35:05 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+17:35:06 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:35:06 **** Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise03.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise03.exe"  ./src/main.o   
+Finished building target: Exercise03.exe
+ 
+17:35:12 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+17:37:05 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+17:37:06 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:37:07 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+17:37:08 **** Build of configuration Debug for project Exercise04 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise04.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise04.exe"  ./src/main.o   
+Finished building target: Exercise04.exe
+ 
+17:37:14 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:00 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'double ctok(double)':
+../src/main.cpp:14:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise04.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise04.exe"  ./src/main.o   
+Finished building target: Exercise04.exe
+ 
+17:38:10 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:10 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:11 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:11 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:16 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+17:39:00 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+17:39:01 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:39:02 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+17:39:02 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:20:10: warning: the address of 'double ctok(double)' will always evaluate as 'true' [-Waddress]
+  cout << ctok;
+          ^
+../src/main.cpp:19:9: warning: unused variable 'k' [-Wunused-variable]
+  double k = ctok(c); // changed "c" to a double
+         ^
+../src/main.cpp: In function 'double ctok(double)':
+../src/main.cpp:14:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise04.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise04.exe"  ./src/main.o   
+Finished building target: Exercise04.exe
+ 
+17:39:08 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+17:39:27 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+17:39:27 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:39:28 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+17:39:29 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:19:9: warning: unused variable 'k' [-Wunused-variable]
+  double k = ctok(c); // changed "c" to a double
+         ^
+../src/main.cpp: In function 'double ctok(double)':
+../src/main.cpp:14:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise04.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise04.exe"  ./src/main.o   
+Finished building target: Exercise04.exe
+ 
+17:39:38 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+17:39:54 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+17:40:31 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+17:40:31 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:40:32 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+17:40:33 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'double ctok(double)':
+../src/main.cpp:14:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:19:9: warning: unused variable 'k' [-Wunused-variable]
+  double k = ctok(c); // changed "c" to a double
+         ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise04.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise04.exe"  ./src/main.o   
+Finished building target: Exercise04.exe
+ 
+17:40:39 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+17:40:58 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+17:41:12 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+17:41:48 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+17:41:49 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:41:49 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise03.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise03.exe"  ./src/main.o   
+Finished building target: Exercise03.exe
+ 
+17:41:53 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'double ctok(double)':
+../src/main.cpp:14:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:19:9: warning: unused variable 'k' [-Wunused-variable]
+  double k = ctok(c);
+         ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise04.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise04.exe"  ./src/main.o   
+Finished building target: Exercise04.exe
+ 
+17:41:59 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+17:42:06 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+17:52:21 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+17:52:22 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:52:23 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise03.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise03.exe"  ./src/main.o   
+Finished building target: Exercise03.exe
+ 
+17:52:25 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+17:52:26 **** Build of configuration Debug for project Exercise05 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise05.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise05.exe"  ./src/main.o   
+Finished building target: Exercise05.exe
+ 
+17:52:33 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+17:52:48 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:15:42 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:15:51 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:16:01 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:29 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:30 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:31 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:31 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:32 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:32 **** Build of configuration Debug for project Exercise07 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp:7:28: error: 'b' has not been declared
+ double roottest (double a, b, c)
+                            ^
+../src/main.cpp:7:31: error: 'c' has not been declared
+ double roottest (double a, b, c)
+                               ^
+../src/main.cpp: In function 'double roottest(double, int, int)':
+../src/main.cpp:9:27: error: 'b' was not declared in this scope
+  double root1 = sqrt((pow(b, 2)-(4*a*c)), 2);
+                           ^
+../src/main.cpp:9:38: error: 'c' was not declared in this scope
+  double root1 = sqrt((pow(b, 2)-(4*a*c)), 2);
+                                      ^
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:20:1: error: expected ';' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:53:10 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:10 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:11 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:12 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:12 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:13 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'double roottest(double, double, double)':
+../src/main.cpp:9:44: error: no matching function for call to 'sqrt(double, int)'
+  double root1 = sqrt((pow(b, 2)-(4*a*c)), 2);
+                                            ^
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/cmath:44:0,
+                 from ../src/main.cpp:2:
+/usr/include/math.h:135:15: note: candidate: double sqrt(double)
+ extern double sqrt _PARAMS((double));
+               ^
+/usr/include/math.h:135:15: note:   candidate expects 1 argument, 2 provided
+In file included from ../src/main.cpp:2:0:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/cmath:494:5: note: candidate: template<class _Tp> typename __gnu_cxx::__enable_if<std::__is_integer<_Tp>::__value, double>::__type std::sqrt(_Tp)
+     sqrt(_Tp __x)
+     ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/cmath:494:5: note:   template argument deduction/substitution failed:
+../src/main.cpp:9:44: note:   candidate expects 1 argument, 2 provided
+  double root1 = sqrt((pow(b, 2)-(4*a*c)), 2);
+                                            ^
+In file included from ../src/main.cpp:2:0:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/cmath:486:3: note: candidate: long double std::sqrt(long double)
+   sqrt(long double __x)
+   ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/cmath:486:3: note:   candidate expects 1 argument, 2 provided
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/cmath:482:3: note: candidate: float std::sqrt(float)
+   sqrt(float __x)
+   ^
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/cmath:482:3: note:   candidate expects 1 argument, 2 provided
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:20:1: error: expected ';' before '}' token
+ }
+ ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+18:53:41 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:41 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:42 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:43 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:43 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:49 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:50 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:50 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:51 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:51 **** Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+18:53:52 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise07.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise07.exe"  ./src/main.o   
+Finished building target: Exercise07.exe
+ 
+18:54:03 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+make: Nothing to be done for 'all'.
+19:04:54 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+19:04:55 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise02.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise02.exe"  ./src/main.o   
+Finished building target: Exercise02.exe
+ 
+19:04:59 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+19:04:59 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+19:05:00 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+19:05:00 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'double roottest()':
+../src/main.cpp:8:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise07.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise07.exe"  ./src/main.o   
+Finished building target: Exercise07.exe
+ 
+19:05:13 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+make: Nothing to be done for 'all'.
+19:06:16 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+make: Nothing to be done for 'all'.
+19:25:27 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+19:25:28 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+19:25:28 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+19:25:29 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+19:25:29 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+19:25:30 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:13:12: error: invalid operands of types 'double' and 'double(const char*)' to binary 'operator=='
+  if (x1 == nan || x2 == nan){
+            ^
+../src/main.cpp:13:25: error: invalid operands of types 'double' and 'double(const char*)' to binary 'operator=='
+  if (x1 == nan || x2 == nan){
+                         ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+19:27:52 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+19:27:53 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+19:27:54 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+19:27:54 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+19:27:55 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+19:27:55 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise07.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise07.exe"  ./src/main.o   
+Finished building target: Exercise07.exe
+ 
+19:28:02 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+make: Nothing to be done for 'all'.
+19:29:59 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:09 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:10 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:11 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:11 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:12 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+19:53:13 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise07.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise07.exe"  ./src/main.o   
+Finished building target: Exercise07.exe
+ 
+19:53:15 **** Build of configuration Debug for project Exercise08 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise08.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise08.exe"  ./src/main.o   
+Finished building target: Exercise08.exe
+ 
+19:53:22 **** Incremental Build of configuration Debug for project Exercise08 ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:11 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:12 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:12 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:13 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:13 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:14 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:14 **** Incremental Build of configuration Debug for project Exercise08 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise08.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise08.exe"  ./src/main.o   
+Finished building target: Exercise08.exe
+ 
+19:54:20 **** Incremental Build of configuration Debug for project Exercise08 ****
+make all 
+make: Nothing to be done for 'all'.
+19:54:35 **** Incremental Build of configuration Debug for project Exercise08 ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:52 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:53 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:53 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:54 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:54 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:55 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:55 **** Incremental Build of configuration Debug for project Exercise08 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise08.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise08.exe"  ./src/main.o   
+Finished building target: Exercise08.exe
+ 
+19:56:01 **** Incremental Build of configuration Debug for project Exercise08 ****
+make all 
+make: Nothing to be done for 'all'.
+20:04:11 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+20:04:12 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+20:04:13 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+20:04:13 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+20:04:14 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+20:04:14 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+make: Nothing to be done for 'all'.
+20:04:14 **** Incremental Build of configuration Debug for project Exercise08 ****
+make all 
+make: Nothing to be done for 'all'.
+20:04:15 **** Build of configuration Debug for project Exercise09 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise09.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise09.exe"  ./src/main.o   
+Finished building target: Exercise09.exe
+ 
+20:04:26 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+make: Nothing to be done for 'all'.
+20:09:13 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+20:09:14 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+20:09:15 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+20:09:15 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+20:09:16 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+20:09:16 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+make: Nothing to be done for 'all'.
+20:09:17 **** Incremental Build of configuration Debug for project Exercise08 ****
+make all 
+make: Nothing to be done for 'all'.
+20:09:17 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise09.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise09.exe"  ./src/main.o   
+Finished building target: Exercise09.exe
+ 
+20:09:23 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+make: Nothing to be done for 'all'.
+20:16:43 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:53 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:54 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:54 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:55 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:55 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:56 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:56 **** Incremental Build of configuration Debug for project Exercise08 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:57 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise09.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise09.exe"  ./src/main.o   
+Finished building target: Exercise09.exe
+ 
+20:29:58 **** Build of configuration Debug for project Exercise10 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:40:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < (values.size() - 1); i++){
+                     ^
+../src/main.cpp:44:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < differences.size(); i++){
+                     ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise10.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise10.exe"  ./src/main.o   
+Finished building target: Exercise10.exe
+ 
+20:30:06 **** Incremental Build of configuration Debug for project Exercise10 ****
+make all 
+make: Nothing to be done for 'all'.
+20:33:34 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:01 **** Incremental Build of configuration Debug for project Exercise10 ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:16 **** Incremental Build of configuration Debug for project Exercise10 ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:28 **** Incremental Build of configuration Debug for project Exercise10 ****
+make all 
+make: Nothing to be done for 'all'.
+20:35:42 **** Incremental Build of configuration Debug for project Exercise10 ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:05 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:05 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:06 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:06 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:07 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:07 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:08 **** Incremental Build of configuration Debug for project Exercise08 ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:09 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:09 **** Incremental Build of configuration Debug for project Exercise10 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:40:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < (values.size() - 1); i++){
+                     ^
+../src/main.cpp:44:21: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (int i = 0; i < differences.size(); i++){
+                     ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise10.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise10.exe"  ./src/main.o   
+Finished building target: Exercise10.exe
+ 
+20:36:19 **** Incremental Build of configuration Debug for project Exercise10 ****
+make all 
+make: Nothing to be done for 'all'.

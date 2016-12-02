@@ -1,0 +1,20 @@
+#include<iostream>
+
+using namespace std;
+
+double ctok(double c)
+{
+	if (c < -273.15){
+		cout << "Error, impossibly cold.\n";
+	}
+	else {
+		int k = c + 273.15;
+		cout << k;
+	}
+}
+int main()
+{
+	double c = 0;
+	cin >> c; // changed undeclared variable to c
+	double k = ctok(c); // changed "c" to a double
+}
