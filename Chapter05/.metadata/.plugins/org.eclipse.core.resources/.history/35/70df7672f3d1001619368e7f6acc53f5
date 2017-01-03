@@ -1,0 +1,44 @@
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
+int main()
+{
+	cout << "How many integers will be put?\n";
+	int range;
+	cin >> range;
+	vector<int> values;
+	values.reserve(range);
+	cout << "Which of these first numbers should be added?\n";
+	int added;
+	cin >> added;
+	if (range < added){
+		cout << "You are adding more than the numbers you requested.\n";
+		while (range < added){
+			cout << "Please reenter a valid number of numbers to be added.\n";
+			cin >> added;
+		}
+	}
+
+	int entered = 0;
+	int userNumber;
+	while (entered < range){
+		cout << "Enter a number. " << entered << " numbers have been entered.\n";
+		cin >> userNumber;
+		values.push_back(userNumber);
+		entered++;
+	}
+	cout << "All " << range << " numbers have been added\n";
+
+	int sum;
+	for (int i = 0; i < added; i++){
+		sum += values[i];
+	}
+
+	cout << "Your numbers: ";
+	for (int i = 0; i < values.size(); i++){
+		cout << values[i] << " ";
+	}
+	cout << "The sum of the first " << added << " is " << sum;
+}

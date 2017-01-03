@@ -1,0 +1,12 @@
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
+int main()
+{
+	vector<int> answer(6, 2, 1, 3);
+	cout << answer[3];
+}
+
+
