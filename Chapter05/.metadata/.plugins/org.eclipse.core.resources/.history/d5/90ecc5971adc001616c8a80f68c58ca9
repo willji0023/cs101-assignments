@@ -1,0 +1,44 @@
+#include <iostream>
+#include <random>
+#include <vector>
+#include <cstdlib>
+#include <ctime>
+
+// gets random number between 1 and 9
+int generate(){
+	std::cout << "enter any random integer\n";
+	int n = 0;
+	std::cin >> n;
+	srand(time(0));
+	int x = (rand() % 9) + 1 // num 1-9
+	return x;
+}
+
+// game
+int main(){
+	char run = 'x';
+	while (run == 'x'){
+		//sets up a new game
+		while (){
+			int val1, val2, val3, val4 = generate();
+			if (val1 == val2 || val2 == val3 || val3 == val4  || val4 == val1){
+				continue;
+			}
+			else{
+				std::vector<int> numbers = {val1, val2, val3, val4};
+				break;
+			}
+		}
+		int bulls, cows = 0;
+
+		//
+		std::cout << "\tWelcome to Bulls and Cows\n";
+		std::cout << "You will be asked to entered 4 digits with spaces inbetween each every guess, starting now: \n";
+		int userval1, userval2, userval3, userval4;
+		while (std::cin >> userval1 >> userval2 >> userval3 >> userval4){
+
+		}
+	}
+}
+
+

@@ -1,6 +1,6 @@
-12:24:35 **** Incremental Build of configuration Debug for project Drill ****
+13:18:29 **** Incremental Build of configuration Debug for project Drill ****
 make all 
 make: Nothing to be done for 'all'.
 
-12:24:35 Build Finished (took 521ms)
+13:18:30 Build Finished (took 682ms)
 

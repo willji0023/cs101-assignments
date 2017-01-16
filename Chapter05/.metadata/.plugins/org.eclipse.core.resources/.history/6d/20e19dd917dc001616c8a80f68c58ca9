@@ -1,0 +1,38 @@
+#include <iostream>
+#include <random>
+#include <iomanip>
+#include <map>
+#include <vector>
+#include <cmath>
+
+// gets random number between 1 and 9
+int generate(){
+	std::random_device a;
+	std::default_random_engine b(a());
+	std::uniform_int_distribution<int> distribution(1, 9);
+	int randNum = distribution(b);
+	return randNum;
+}
+
+// game
+int main(){
+	char run = 'x';
+	while (run == 'x'){
+		//sets up a new game
+		std::vector<int> numbers;
+		for (int i = 0; i < 4; i++){
+			numbers.push_back(generate());
+		}
+		int bulls, cows = 0;
+
+		//
+		std::cout << "\tWelcome to Bulls and Cows\n";
+		std::cout << "You will be asked to entered 4 digits with spaces inbetween each every guess, starting now: \n";
+		int userval1, userval2, userval3, userval4;
+		while (std::cin >> userval1 >> userval2 >> userval3 >> userval4){
+
+		}
+	}
+}
+
+

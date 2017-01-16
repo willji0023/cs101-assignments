@@ -1557,3 +1557,390 @@ Finished building target: Exercise08.exe
 12:29:37 **** Incremental Build of configuration Debug for project Exercise08 ****
 make all 
 make: Nothing to be done for 'all'.
+09:58:44 **** Build of configuration Debug for project Exercise13 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/random:35:0,
+                 from ../src/main.cpp:2:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support for the \
+  ^
+../src/main.cpp: In function 'int generate()':
+../src/main.cpp:10:2: error: 'random_device' is not a member of 'std'
+  std::random_device a;
+  ^
+../src/main.cpp:11:2: error: 'default_random_engine' is not a member of 'std'
+  std::default_random_engine b(a());
+  ^
+../src/main.cpp:12:2: error: 'uniform_int_distribution' is not a member of 'std'
+  std::uniform_int_distribution<int> distribution(1, 9);
+  ^
+../src/main.cpp:12:32: error: expected primary-expression before 'int'
+  std::uniform_int_distribution<int> distribution(1, 9);
+                                ^
+../src/main.cpp:13:29: error: 'b' was not declared in this scope
+  int randNum = distribution(b);
+                             ^
+../src/main.cpp:13:30: error: 'distribution' was not declared in this scope
+  int randNum = distribution(b);
+                              ^
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:26:7: warning: unused variable 'bulls' [-Wunused-variable]
+   int bulls, cows = 0;
+       ^
+../src/main.cpp:26:14: warning: unused variable 'cows' [-Wunused-variable]
+   int bulls, cows = 0;
+              ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+10:16:10 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:26:7: warning: unused variable 'bulls' [-Wunused-variable]
+   int bulls, cows = 0;
+       ^
+../src/main.cpp:26:14: warning: unused variable 'cows' [-Wunused-variable]
+   int bulls, cows = 0;
+              ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise13.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise13.exe"  ./src/main.o   
+Finished building target: Exercise13.exe
+ 
+10:16:25 **** Build of configuration Debug for project Exercise08 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:43:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (int i = 0; i < values.size(); i++){
+                    ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise08.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise08.exe"  ./src/main.o   
+Finished building target: Exercise08.exe
+ 
+10:35:49 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+In file included from /usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/random:35:0,
+                 from ../src/main.cpp:2:
+/usr/lib/gcc/x86_64-pc-msys/5.3.0/include/c++/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support is currently experimental, and must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support for the \
+  ^
+../src/main.cpp: In function 'int generate()':
+../src/main.cpp:14:2: error: expected ',' or ';' before 'return'
+  return x;
+  ^
+../src/main.cpp:13:6: warning: unused variable 'x' [-Wunused-variable]
+  int x = (rand() % 9) + 1 // num 1-9
+      ^
+../src/main.cpp:15:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:28:55: error: in C++98 'numbers' must be initialized by constructor, not by '{...}'
+     std::vector<int> numbers = {val1, val2, val3, val4};
+                                                       ^
+../src/main.cpp:28:55: error: could not convert '{val1, val2, val3, val4}' from '<brace-enclosed initializer list>' to 'std::vector<int>'
+../src/main.cpp:32:7: warning: unused variable 'bulls' [-Wunused-variable]
+   int bulls, cows = 0;
+       ^
+../src/main.cpp:32:14: warning: unused variable 'cows' [-Wunused-variable]
+   int bulls, cows = 0;
+              ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+10:38:47 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:32:7: warning: unused variable 'bulls' [-Wunused-variable]
+   int bulls, cows = 0;
+       ^
+../src/main.cpp:32:14: warning: unused variable 'cows' [-Wunused-variable]
+   int bulls, cows = 0;
+              ^
+../src/main.cpp:24:4: warning: 'val1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    if (val1 == val2 || val2 == val3 || val3 == val4  || val4 == val1){
+    ^
+../src/main.cpp:24:4: warning: 'val2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+../src/main.cpp:24:21: warning: 'val3' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    if (val1 == val2 || val2 == val3 || val3 == val4  || val4 == val1){
+                     ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise13.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise13.exe"  ./src/main.o   
+Finished building target: Exercise13.exe
+ 
+10:38:58 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:48 **** Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:49 **** Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:50 **** Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:50 **** Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:51 **** Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:51 **** Build of configuration Debug for project Exercise07 ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:51 **** Incremental Build of configuration Debug for project Exercise08 ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:52 **** Build of configuration Debug for project Exercise09 ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:52 **** Build of configuration Debug for project Exercise10 ****
+make all 
+make: Nothing to be done for 'all'.
+13:07:52 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:44:24: error: 'numbers' was not declared in this scope
+    for (int i = 0; i < numbers.size(); i++){
+                        ^
+../src/main.cpp:50:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int i = 0; i < guesses.size(); i++){
+                      ^
+../src/main.cpp:51:25: error: 'numbers' was not declared in this scope
+     for (int j = 0; j < numbers.size(); i++){
+                         ^
+../src/main.cpp:64:17: error: 'x' was not declared in this scope
+     std::cin >> x;
+                 ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+13:16:30 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:42:24: error: 'numbers' was not declared in this scope
+    for (int i = 0; i < numbers.size(); i++){
+                        ^
+../src/main.cpp:48:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int i = 0; i < guesses.size(); i++){
+                      ^
+../src/main.cpp:49:25: error: 'numbers' was not declared in this scope
+     for (int j = 0; j < numbers.size(); i++){
+                         ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+13:18:29 **** Incremental Build of configuration Debug for project Drill ****
+make all 
+make: Nothing to be done for 'all'.
+13:18:30 **** Incremental Build of configuration Debug for project Exercise02 ****
+make all 
+make: Nothing to be done for 'all'.
+13:18:31 **** Incremental Build of configuration Debug for project Exercise03 ****
+make all 
+make: Nothing to be done for 'all'.
+13:18:31 **** Incremental Build of configuration Debug for project Exercise04 ****
+make all 
+make: Nothing to be done for 'all'.
+13:18:32 **** Incremental Build of configuration Debug for project Exercise05 ****
+make all 
+make: Nothing to be done for 'all'.
+13:18:32 **** Incremental Build of configuration Debug for project Exercise07 ****
+make all 
+make: Nothing to be done for 'all'.
+13:18:32 **** Incremental Build of configuration Debug for project Exercise08 ****
+make all 
+make: Nothing to be done for 'all'.
+13:18:33 **** Incremental Build of configuration Debug for project Exercise09 ****
+make all 
+make: Nothing to be done for 'all'.
+13:18:33 **** Incremental Build of configuration Debug for project Exercise10 ****
+make all 
+make: Nothing to be done for 'all'.
+13:18:33 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:35:31: error: 'val1' was not declared in this scope
+   std::vector<int> numbers = {val1, val2, val3, val4};
+                               ^
+../src/main.cpp:35:37: error: 'val2' was not declared in this scope
+   std::vector<int> numbers = {val1, val2, val3, val4};
+                                     ^
+../src/main.cpp:35:43: error: 'val3' was not declared in this scope
+   std::vector<int> numbers = {val1, val2, val3, val4};
+                                           ^
+../src/main.cpp:35:49: error: 'val4' was not declared in this scope
+   std::vector<int> numbers = {val1, val2, val3, val4};
+                                                 ^
+../src/main.cpp:35:53: error: could not convert '{<expression error>, <expression error>, <expression error>, <expression error>}' from '<brace-enclosed initializer list>' to 'std::vector<int>'
+   std::vector<int> numbers = {val1, val2, val3, val4};
+                                                     ^
+../src/main.cpp:44:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int i = 0; i < numbers.size(); i++){
+                      ^
+../src/main.cpp:50:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int i = 0; i < guesses.size(); i++){
+                      ^
+../src/main.cpp:51:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < numbers.size(); i++){
+                       ^
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+13:23:42 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:45:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int i = 0; i < numbers.size(); i++){
+                      ^
+../src/main.cpp:51:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int i = 0; i < guesses.size(); i++){
+                      ^
+../src/main.cpp:52:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < numbers.size(); i++){
+                       ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise13.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise13.exe"  ./src/main.o   
+Finished building target: Exercise13.exe
+ 
+13:23:52 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+make: Nothing to be done for 'all'.
+13:24:39 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:42:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int i = 0; i < numbers.size(); i++){
+                      ^
+../src/main.cpp:48:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int i = 0; i < guesses.size(); i++){
+                      ^
+../src/main.cpp:49:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < numbers.size(); i++){
+                       ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise13.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise13.exe"  ./src/main.o   
+Finished building target: Exercise13.exe
+ 
+13:24:46 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+make: Nothing to be done for 'all'.
+13:25:20 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+make: Nothing to be done for 'all'.
+13:28:24 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:33:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int i = 0; i < numbers.size(); i++){
+                      ^
+../src/main.cpp:39:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int i = 0; i < guesses.size(); i++){
+                      ^
+../src/main.cpp:40:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < numbers.size(); i++){
+                       ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise13.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise13.exe"  ./src/main.o   
+Finished building target: Exercise13.exe
+ 
+13:28:33 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+make: Nothing to be done for 'all'.
+13:35:42 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:33:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int i = 0; i < numbers.size(); i++){
+                      ^
+../src/main.cpp:39:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int i = 0; i < guesses.size(); i++){
+                      ^
+../src/main.cpp:40:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < numbers.size(); j++){
+                       ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise13.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise13.exe"  ./src/main.o   
+Finished building target: Exercise13.exe
+ 
+13:35:47 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+make: Nothing to be done for 'all'.
+13:35:48 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+make: Nothing to be done for 'all'.
+13:36:09 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+make: Nothing to be done for 'all'.
+13:38:21 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function 'int main()':
+../src/main.cpp:33:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int i = 0; i < numbers.size(); i++){
+                      ^
+../src/main.cpp:39:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for (int i = 0; i < guesses.size(); i++){
+                      ^
+../src/main.cpp:40:23: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int j = 0; j < numbers.size(); j++){
+                       ^
+Finished building: ../src/main.cpp
+ 
+Building target: Exercise13.exe
+Invoking: Cygwin C++ Linker
+g++  -o "Exercise13.exe"  ./src/main.o   
+Finished building target: Exercise13.exe
+ 
+13:38:28 **** Incremental Build of configuration Debug for project Exercise13 ****
+make all 
+make: Nothing to be done for 'all'.

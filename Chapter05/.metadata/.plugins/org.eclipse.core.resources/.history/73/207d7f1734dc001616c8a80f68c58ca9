@@ -1,0 +1,58 @@
+#include <iostream>
+#include <random>
+#include <vector>
+#include <cstdlib>
+#include <ctime>
+#include <algorithm>
+
+// gets random number between 1 and 9
+int generate(){
+	srand(time(0));
+	int x = (rand() % 9) + 1; // num 1-9
+	return x;
+}
+
+// game
+int main(){
+	char run = 'x';
+	while (run == 'x'){
+		//sets up a new game
+		int	val1 = generate();
+		int	val2 = generate();
+		int	val3 = generate();
+		int	val4 = generate();
+		std::vector<int> numbers = {val1, val2, val3, val4};
+
+		// starts game
+		std::cout << "\tWelcome to Bulls and Cows\n";
+		std::cout << "You will be asked to entered 4 digits with spaces inbetween each every guess, starting now: \n";
+		int userval1, userval2, userval3, userval4;
+		while (std::cin >> userval1 >> userval2 >> userval3 >> userval4){
+			std::vector<int> guesses = {userval1, userval2, userval3, userval4};
+			int bulls, cows = 0;
+			for (int i = 0; i < numbers.size(); i++){
+				if (guesses[i] == numbers[i]){
+					bulls++;
+					guesses.erase(std::remove(guesses.begin(), guesses.end(), i), guesses.end());
+				}
+			}
+			for (int i = 0; i < guesses.size(); i++){
+				for (int j = 0; j < numbers.size(); j++){
+					if (guesses[i] == numbers[j]){
+						cows++;
+					}
+				}
+			}
+			std::cout << bulls << " bulls and " << cows << " cows\n";
+			if (bulls == 4){
+				std::cout << "Congrats you win\n";
+				break;
+			}
+		}
+		std::cout << "Keep playing?\n";
+		std::cin >> run;
+	}
+	std::cout << "Goodbye!";
+}
+
+
